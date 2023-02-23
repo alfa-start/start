@@ -1,0 +1,299 @@
+body{
+    background-color: F2ECE0;
+    font-size: smaller;
+    margin: 0%;
+}
+#warpper{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body #end{
+    background-color:E8A93F;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    line-height: 68px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    width: 95%;
+    margin: auto;
+}
+#logo{
+    height: 60px;
+    width: 50px;
+}
+#admin{
+    text-align: end;
+    width: 60%;
+}
+
+.firstdis{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#image1 img{
+    height: 200px;
+    width: 220px;
+
+}
+#but button{
+    color: aliceblue;
+    background-color:98460E;
+    border: 0ch;
+    font-size: x-large;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    margin-top: 40px;
+    
+
+}
+#but button:hover{
+    background-color: blue;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+#f img,#d img,#m img{
+  height: 80px;
+  width: 80px;  
+}
+#three{
+    height: 150px;
+    width: 480px;
+    margin-bottom: 10px;
+    margin: auto;
+    
+}
+#three img{
+    height: 100%;
+    width: 100%;
+   
+}
+#four{
+    justify-content: end;
+    
+}
+#web{
+    height: 150px;
+    width: 220px;
+    
+
+}
+#web img{
+    height: 100%;
+    width: 100%;
+}
+
+#five{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+#lg{
+    height: 170px;
+    width: 220px;
+    
+
+}
+#lg img{
+    height: 100%;
+    width: 100%;
+}
+
+#six{
+    display: flex;
+    justify-content:space-between;
+    
+}
+#blog{
+    height: 130px;
+    width: 200px;
+    
+
+}
+#blog img{
+    height: 100%;
+    width: 100%;
+}
+.blog2{
+    
+    background-image: url("blog2.png");
+    height: 500px;
+    width: 100%;
+    
+    
+}
+#txt{
+    padding-top: 30px;
+    padding-left: 10px;
+   
+}
+#txt2{
+    margin-top: 320px;
+    width: fit-content;
+    margin-left: 60%;
+    
+}
+.blog2 #but button{
+    margin-left: 65%;
+    margin-top: 10px;
+    font-size: large;
+    
+}
+.scroll{
+    overflow:auto;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.scroll #a,#b,#c{ 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+    width: 500px;
+
+
+}
+#scroll img{
+    display: inline;
+}
+.scroll #a:hover,#b:hover,#c:hover,#e:hover{
+    background-color: rgb(138, 2, 2);
+}
+#my_picture{
+    background-color: aqua;
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+.popup{
+    width: 350px;
+    background-color: rgb(233, 180, 130);
+    border-radius: 10px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+.open-popup{
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+
+}
+.popupb{
+    width: 350px;
+    background-color: rgb(233, 180, 130);
+    border-radius: 10px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+.open-popupb{
+    top: 150%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 750px)
+{
+    body{
+        background-color: F2ECE0;
+        font-size: smaller;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #three{
+        height: 30%;
+        width: 100%;
+        margin-bottom: 10px;
+        margin: auto;
+        
+    }
+    #image1 img{
+        height: 250px;
+        width: 270px;
+    
+    }
+    .blog2{
+    
+        background-image: url("blog2.png");
+        height: 500px;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px)
+{
+    body{
+        background-color: F2ECE0;
+        font-size: smaller;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #three{
+        height: 30%;
+        width: 100%;
+        margin-bottom: 10px;
+        margin: auto;
+        
+    }
+    #image1 img{
+        height: 250px;
+        width: 270px;
+    
+    }
+    .blog2{
+    
+        background-image: url("blog2.png");
+        height: 500px;
+        width: 90%;
+        margin: auto;
+    
+    }
+
+
+
+    
+}
